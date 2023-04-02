@@ -6,11 +6,11 @@
 # 2 2
 #     4
 
-def sum(num1,num2):
+def sum(num1, num2):
     if num2 == 0:
         return num1
     else:
-        return sum(num1+1,num2-1)
+        return sum(num1 + 1, num2 - 1)
 
 
-print(sum(2,2))
+print(sum(2, 2))
